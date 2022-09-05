@@ -12,7 +12,7 @@ from aiogram.dispatcher import FSMContext
 API_TOKEN = os.getenv("api_bot")# '1732076175:AAGILnWtAxrxd_Dg5KpJNy_yUdLYE1HXzZI'  # os.getenv("api_bot")
 
 logging.basicConfig(level=logging.INFO)
-WEBHOOK_HOST = 'https://botaiogrampy.herokuapp.com'
+WEBHOOK_HOST = 'https://hisob-bot.herokuapp.com' 
 WEBHOOK_PATH = f'/webhook/{API_TOKEN}'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 WEBAPP_HOST = '0.0.0.0'
